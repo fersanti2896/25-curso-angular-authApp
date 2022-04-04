@@ -22,6 +22,8 @@ export class LoginComponent {
                private authService: AuthService ) { }
 
   login() {
+    // this.authService.validarToken()
+    //                 .subscribe( resp => console.log(resp) );
     console.log(`Value:`);
     console.log(this.miFormulario.value);
 
