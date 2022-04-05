@@ -1,5 +1,5 @@
 
 export const environment = {
   production: true,
-  baseUrl: 'http://localhost:4000/api'
+  baseUrl: 'https://authapp-mean.herokuapp.com/api'
 };
