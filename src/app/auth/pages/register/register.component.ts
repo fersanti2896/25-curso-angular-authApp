@@ -21,10 +21,7 @@ export class RegisterComponent {
                private router: Router,
                private authService: AuthService ) { }
 
-  registro() {
-    console.log('Value');
-    console.log(this.miFormulario.value);
-    
+  registro() {    
     const { name, email, password } = this.miFormulario.value;
 
     this.authService.registro( name, email, password )

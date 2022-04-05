@@ -24,9 +24,6 @@ export class LoginComponent {
   login() {
     // this.authService.validarToken()
     //                 .subscribe( resp => console.log(resp) );
-    console.log(`Value:`);
-    console.log(this.miFormulario.value);
-
     const { email, password } = this.miFormulario.value;
 
     this.authService.login( email, password )
